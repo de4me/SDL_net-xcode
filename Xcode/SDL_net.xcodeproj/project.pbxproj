@@ -348,7 +348,6 @@
 				DYLIB_CURRENT_VERSION = 9;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
-				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -361,7 +360,6 @@
 				DYLIB_CURRENT_VERSION = 9;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
-				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -436,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(HOME)/Library/Frameworks",
 					/Library/Frameworks,
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = (
@@ -447,6 +448,7 @@
 					/Library/Frameworks/SDL.framework/Headers,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = SDL_net;
 				SDKROOT = macosx;
 			};
@@ -456,11 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(HOME)/Library/Frameworks",
 					/Library/Frameworks,
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = (
@@ -471,7 +476,6 @@
 				PRODUCT_NAME = SDL_net;
 				SDKROOT = macosx;
 				SEPARATE_STRIP = YES;
-				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
