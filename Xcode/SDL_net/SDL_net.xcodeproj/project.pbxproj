@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD066FA7274961A1007DCE1C /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD066FA6274961A1007DCE1C /* SDL.framework */; };
+		BD066FA9274961A5007DCE1C /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD066FA6274961A1007DCE1C /* SDL.framework */; };
 		BD286A462748D1B4002D80F4 /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD5F373227491DC30087D5E2 /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEB010A4B677F000001 /* SDLnet.c */; };
 		BD5F373727491DC70087D5E2 /* SDLnetselect.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEC010A4B677F000001 /* SDLnetselect.c */; };
 		BD5F373827491DCA0087D5E2 /* SDLnetTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAED010A4B677F000001 /* SDLnetTCP.c */; };
 		BD5F373927491DE20087D5E2 /* SDLnetUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEE010A4B677F000001 /* SDLnetUDP.c */; };
-		BDA45B5827490F8D00816785 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA45B5727490F8D00816785 /* SDL.framework */; };
 		BE48FF5807AFA9A800BB41DA /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE48FF5907AFA9A800BB41DA /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E06A2830119C8317F000001 /* SDLnetsys.h */; };
 		BE48FF5C07AFA9A800BB41DA /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEB010A4B677F000001 /* SDLnet.c */; };
@@ -23,62 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BD2C359F2748F08000759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF66C0761BA81005FE872;
-			remoteInfo = Framework;
-		};
-		BD2C35A12748F08000759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6B30761BA81005FE872;
-			remoteInfo = "Static Library";
-		};
-		BD2C35A32748F08000759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6BA0761BA81005FE872;
-			remoteInfo = "Main Library";
-		};
-		BD2C35A52748F08000759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6BE0761BA81005FE872;
-			remoteInfo = "Standard DMG";
-		};
-		BD2C35A72748F08000759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6C30761BA81005FE872;
-			remoteInfo = "Developer Extras Package";
-		};
-		BD2C35B02748F28900759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BECDF66D0761BA81005FE872;
-			remoteInfo = "Static Library";
-		};
-		BD2C35B22748F2B800759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BECDF6B40761BA81005FE872;
-			remoteInfo = "Main Library";
-		};
-		BD2C35B42748F2C700759D14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BECDF6B40761BA81005FE872;
-			remoteInfo = "Main Library";
-		};
 		BE48FF7A07AFA9A900BB41DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -89,14 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E06A2830119C8317F000001 /* SDLnetsys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDLnetsys.h; path = ../SDLnetsys.h; sourceTree = SOURCE_ROOT; };
-		1014BAEA010A4B677F000001 /* SDL_net.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDL_net.h; path = ../SDL_net.h; sourceTree = SOURCE_ROOT; };
-		1014BAEB010A4B677F000001 /* SDLnet.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnet.c; path = ../SDLnet.c; sourceTree = SOURCE_ROOT; };
-		1014BAEC010A4B677F000001 /* SDLnetselect.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetselect.c; path = ../SDLnetselect.c; sourceTree = SOURCE_ROOT; };
-		1014BAED010A4B677F000001 /* SDLnetTCP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetTCP.c; path = ../SDLnetTCP.c; sourceTree = SOURCE_ROOT; };
-		1014BAEE010A4B677F000001 /* SDLnetUDP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetUDP.c; path = ../SDLnetUDP.c; sourceTree = SOURCE_ROOT; };
-		BD2C35962748F08000759D14 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = ../submodules/SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
-		BDA45B5727490F8D00816785 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E06A2830119C8317F000001 /* SDLnetsys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDLnetsys.h; path = ../../SDLnetsys.h; sourceTree = SOURCE_ROOT; };
+		1014BAEA010A4B677F000001 /* SDL_net.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDL_net.h; path = ../../SDL_net.h; sourceTree = SOURCE_ROOT; };
+		1014BAEB010A4B677F000001 /* SDLnet.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnet.c; path = ../../SDLnet.c; sourceTree = SOURCE_ROOT; };
+		1014BAEC010A4B677F000001 /* SDLnetselect.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetselect.c; path = ../../SDLnetselect.c; sourceTree = SOURCE_ROOT; };
+		1014BAED010A4B677F000001 /* SDLnetTCP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetTCP.c; path = ../../SDLnetTCP.c; sourceTree = SOURCE_ROOT; };
+		1014BAEE010A4B677F000001 /* SDLnetUDP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetUDP.c; path = ../../SDLnetUDP.c; sourceTree = SOURCE_ROOT; };
+		BD066FA6274961A1007DCE1C /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE48FF6307AFA9A800BB41DA /* Info-Framework__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Framework__Upgraded_.plist"; sourceTree = "<group>"; };
 		BE48FF6407AFA9A800BB41DA /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE48FF6F07AFA9A900BB41DA /* libSDL_net.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_net.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA45B5827490F8D00816785 /* SDL.framework in Frameworks */,
+				BD066FA7274961A1007DCE1C /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD066FA9274961A5007DCE1C /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +92,6 @@
 		0867D691FE84028FC02AAC07 /* SDL_netFramework */ = {
 			isa = PBXGroup;
 			children = (
-				BD2C35962748F08000759D14 /* SDL.xcodeproj */,
 				F59C70FC00D5CB5801000001 /* pkg-support */,
 				0153844A006D81B07F000001 /* Public Headers */,
 				08FB77ACFE841707C02AAC07 /* Library Source */,
@@ -177,22 +121,10 @@
 			name = "Library Source";
 			sourceTree = "<group>";
 		};
-		BD2C35972748F08000759D14 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BD2C35A02748F08000759D14 /* SDL.framework */,
-				BD2C35A22748F08000759D14 /* libSDL.a */,
-				BD2C35A42748F08000759D14 /* libSDLmain.a */,
-				BD2C35A62748F08000759D14 /* Standard DMG */,
-				BD2C35A82748F08000759D14 /* Developer Extras Package */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BDA45B5627490F8D00816785 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDA45B5727490F8D00816785 /* SDL.framework */,
+				BD066FA6274961A1007DCE1C /* SDL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,7 +185,6 @@
 			);
 			comments = "Installed into ~/Library/Frameworks/SDL_net.framework\n\nAdd -framework SDL_net to your linker flags\nAdd ~/Library/Frameworks/SDL_net.framework/Headers to your header search path\nAdd ~/Library/Frameworks to your library search path";
 			dependencies = (
-				BD2C35B52748F2C700759D14 /* PBXTargetDependency */,
 			);
 			name = SDL_net;
 			productInstallPath = "@executable_path/../Frameworks";
@@ -273,8 +204,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				BD2C35B32748F2B800759D14 /* PBXTargetDependency */,
-				BD2C35B12748F28900759D14 /* PBXTargetDependency */,
 			);
 			name = libSDL_net;
 			productInstallPath = /usr/local/lib;
@@ -318,12 +247,6 @@
 			mainGroup = 0867D691FE84028FC02AAC07 /* SDL_netFramework */;
 			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BD2C35972748F08000759D14 /* Products */;
-					ProjectRef = BD2C35962748F08000759D14 /* SDL.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BE48FF5607AFA9A800BB41DA /* SDL_net */,
@@ -332,44 +255,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BD2C35A02748F08000759D14 /* SDL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDL.framework;
-			remoteRef = BD2C359F2748F08000759D14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD2C35A22748F08000759D14 /* libSDL.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL.a;
-			remoteRef = BD2C35A12748F08000759D14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD2C35A42748F08000759D14 /* libSDLmain.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDLmain.a;
-			remoteRef = BD2C35A32748F08000759D14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD2C35A62748F08000759D14 /* Standard DMG */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Standard DMG";
-			remoteRef = BD2C35A52748F08000759D14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BD2C35A82748F08000759D14 /* Developer Extras Package */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Developer Extras Package";
-			remoteRef = BD2C35A72748F08000759D14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BE48FF5A07AFA9A800BB41DA /* Resources */ = {
@@ -436,21 +321,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD2C35B12748F28900759D14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Static Library";
-			targetProxy = BD2C35B02748F28900759D14 /* PBXContainerItemProxy */;
-		};
-		BD2C35B32748F2B800759D14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Main Library";
-			targetProxy = BD2C35B22748F2B800759D14 /* PBXContainerItemProxy */;
-		};
-		BD2C35B52748F2C700759D14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Main Library";
-			targetProxy = BD2C35B42748F2C700759D14 /* PBXContainerItemProxy */;
-		};
 		BE48FF7B07AFA9A900BB41DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BE48FF5607AFA9A800BB41DA /* SDL_net */;
@@ -574,6 +444,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../submodules/SDL/include\"";
 			};
 			name = Debug;
 		};
@@ -596,6 +467,7 @@
 				SDKROOT = macosx;
 				SEPARATE_STRIP = YES;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(DSTROOT)/usr/local/include\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../submodules/SDL/include\"";
 			};
 			name = Release;
 		};
