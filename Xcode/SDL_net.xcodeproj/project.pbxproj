@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD2525CE2748F530003ED416 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2C35A02748F08000759D14 /* SDL.framework */; };
 		BD286A462748D1B4002D80F4 /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA45B5827490F8D00816785 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA45B5727490F8D00816785 /* SDL.framework */; };
 		BE48FF5807AFA9A800BB41DA /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE48FF5907AFA9A800BB41DA /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E06A2830119C8317F000001 /* SDLnetsys.h */; };
 		BE48FF5C07AFA9A800BB41DA /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEB010A4B677F000001 /* SDLnet.c */; };
@@ -100,6 +100,7 @@
 		1014BAED010A4B677F000001 /* SDLnetTCP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetTCP.c; path = ../SDLnetTCP.c; sourceTree = SOURCE_ROOT; };
 		1014BAEE010A4B677F000001 /* SDLnetUDP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SDLnetUDP.c; path = ../SDLnetUDP.c; sourceTree = SOURCE_ROOT; };
 		BD2C35962748F08000759D14 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = ../submodules/SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
+		BDA45B5727490F8D00816785 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE48FF6307AFA9A800BB41DA /* Info-Framework__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Framework__Upgraded_.plist"; sourceTree = "<group>"; };
 		BE48FF6407AFA9A800BB41DA /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE48FF6F07AFA9A900BB41DA /* libSDL_net.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_net.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2525CE2748F530003ED416 /* SDL.framework in Frameworks */,
+				BDA45B5827490F8D00816785 /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +157,7 @@
 				08FB77ACFE841707C02AAC07 /* Library Source */,
 				034768DDFF38A45A11DB9C8B /* Products */,
 				BE48FF6307AFA9A800BB41DA /* Info-Framework__Upgraded_.plist */,
-				BD2525CD2748F530003ED416 /* Frameworks */,
+				BDA45B5627490F8D00816785 /* Frameworks */,
 			);
 			name = SDL_netFramework;
 			sourceTree = "<group>";
@@ -184,13 +185,6 @@
 			name = "Library Source";
 			sourceTree = "<group>";
 		};
-		BD2525CD2748F530003ED416 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BD2C35972748F08000759D14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +195,14 @@
 				BD2C35A82748F08000759D14 /* Developer Extras Package */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA45B5627490F8D00816785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDA45B5727490F8D00816785 /* SDL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F59C70FC00D5CB5801000001 /* pkg-support */ = {
