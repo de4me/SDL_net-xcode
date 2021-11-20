@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BD286A462748D1B4002D80F4 /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5F373227491DC30087D5E2 /* SDLnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEB010A4B677F000001 /* SDLnet.c */; };
+		BD5F373727491DC70087D5E2 /* SDLnetselect.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEC010A4B677F000001 /* SDLnetselect.c */; };
+		BD5F373827491DCA0087D5E2 /* SDLnetTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAED010A4B677F000001 /* SDLnetTCP.c */; };
+		BD5F373927491DE20087D5E2 /* SDLnetUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = 1014BAEE010A4B677F000001 /* SDLnetUDP.c */; };
 		BDA45B5827490F8D00816785 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA45B5727490F8D00816785 /* SDL.framework */; };
 		BE48FF5807AFA9A800BB41DA /* SDL_net.h in Headers */ = {isa = PBXBuildFile; fileRef = 1014BAEA010A4B677F000001 /* SDL_net.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE48FF5907AFA9A800BB41DA /* SDLnetsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E06A2830119C8317F000001 /* SDLnetsys.h */; };
@@ -422,6 +426,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5F373227491DC30087D5E2 /* SDLnet.c in Sources */,
+				BD5F373727491DC70087D5E2 /* SDLnetselect.c in Sources */,
+				BD5F373827491DCA0087D5E2 /* SDLnetTCP.c in Sources */,
+				BD5F373927491DE20087D5E2 /* SDLnetUDP.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
