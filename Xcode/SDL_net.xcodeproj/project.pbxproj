@@ -245,9 +245,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BE48FF5607AFA9A800BB41DA /* Framework */ = {
+		BE48FF5607AFA9A800BB41DA /* SDL_net */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00F071FD0992C7C800D99510 /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildConfigurationList = 00F071FD0992C7C800D99510 /* Build configuration list for PBXNativeTarget "SDL_net" */;
 			buildPhases = (
 				BE48FF5707AFA9A800BB41DA /* Headers */,
 				BE48FF5A07AFA9A800BB41DA /* Resources */,
@@ -261,15 +261,15 @@
 			dependencies = (
 				BD2C35B52748F2C700759D14 /* PBXTargetDependency */,
 			);
-			name = Framework;
+			name = SDL_net;
 			productInstallPath = "@executable_path/../Frameworks";
 			productName = SDL_net;
 			productReference = BE48FF6407AFA9A800BB41DA /* SDL_net.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE48FF6507AFA9A800BB41DA /* Static Library */ = {
+		BE48FF6507AFA9A800BB41DA /* libSDL_net */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00F072010992C7C800D99510 /* Build configuration list for PBXNativeTarget "Static Library" */;
+			buildConfigurationList = 00F072010992C7C800D99510 /* Build configuration list for PBXNativeTarget "libSDL_net" */;
 			buildPhases = (
 				BE48FF6607AFA9A800BB41DA /* Headers */,
 				BE48FF6807AFA9A800BB41DA /* Sources */,
@@ -282,9 +282,9 @@
 				BD2C35B32748F2B800759D14 /* PBXTargetDependency */,
 				BD2C35B12748F28900759D14 /* PBXTargetDependency */,
 			);
-			name = "Static Library";
+			name = libSDL_net;
 			productInstallPath = /usr/local/lib;
-			productName = "Static Library";
+			productName = libSDL_net;
 			productReference = BE48FF6F07AFA9A900BB41DA /* libSDL_net.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -332,8 +332,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				BE48FF5607AFA9A800BB41DA /* Framework */,
-				BE48FF6507AFA9A800BB41DA /* Static Library */,
+				BE48FF5607AFA9A800BB41DA /* SDL_net */,
+				BE48FF6507AFA9A800BB41DA /* libSDL_net */,
 				BE48FF7007AFA9A900BB41DA /* Create DMG */,
 			);
 		};
@@ -459,7 +459,7 @@
 		};
 		BE48FF7B07AFA9A900BB41DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE48FF5607AFA9A800BB41DA /* Framework */;
+			target = BE48FF5607AFA9A800BB41DA /* SDL_net */;
 			targetProxy = BE48FF7A07AFA9A900BB41DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,6 +475,7 @@
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				MODULEMAP_FILE = SDL_net.modulemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -489,6 +490,7 @@
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				MODULEMAP_FILE = SDL_net.modulemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -498,9 +500,11 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LIBTOOL_FLAGS = "";
 				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_EXECUTABLE = YES;
 				SECTORDER_FLAGS = "";
 			};
@@ -511,9 +515,11 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LIBTOOL_FLAGS = "";
 				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_EXECUTABLE = YES;
 				SECTORDER_FLAGS = "";
 			};
@@ -570,7 +576,6 @@
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../submodules/SDL/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = SDL_net;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"";
 			};
@@ -588,7 +593,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../submodules/SDL/include\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = SDL_net;
 				SDKROOT = macosx;
 				SEPARATE_STRIP = YES;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(DSTROOT)/usr/local/include\"";
@@ -598,7 +602,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00F071FD0992C7C800D99510 /* Build configuration list for PBXNativeTarget "Framework" */ = {
+		00F071FD0992C7C800D99510 /* Build configuration list for PBXNativeTarget "SDL_net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00F071FE0992C7C800D99510 /* Debug */,
@@ -607,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		00F072010992C7C800D99510 /* Build configuration list for PBXNativeTarget "Static Library" */ = {
+		00F072010992C7C800D99510 /* Build configuration list for PBXNativeTarget "libSDL_net" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00F072020992C7C800D99510 /* Debug */,
