@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:chatObjectiveC/chatObjectiveC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:showinterfaces/../chatd/chatd.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:showinterfaces/showinterfaces.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../submodules/SDL/Xcode/SDL/SDL.xcodeproj">
    </FileRef>
    <FileRef

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD08DAC2274AB01900ABA4A6 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9ED8F3274A41260070DEC8 /* SDL.framework */; };
+		BD08DAC3274AB01900ABA4A6 /* SDL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD9ED8F3274A41260070DEC8 /* SDL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD8EB0E9274A59CF0051570C /* vConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8EB0E8274A59CF0051570C /* vConnectViewController.m */; };
+		BD8EB0ED274A82DB0051570C /* cMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8EB0EC274A82DB0051570C /* cMessage.m */; };
+		BD8EB0F0274A8C110051570C /* cMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8EB0EF274A8C110051570C /* cMessageCell.m */; };
+		BD8EB0F3274AA6D50051570C /* cConnectCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8EB0F2274AA6D50051570C /* cConnectCredentials.m */; };
+		BD9ED8DD274A408B0070DEC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9ED8DC274A408B0070DEC8 /* AppDelegate.m */; };
+		BD9ED8E0274A408B0070DEC8 /* vMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9ED8DF274A408B0070DEC8 /* vMainViewController.m */; };
+		BD9ED8E2274A408C0070DEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9ED8E1274A408C0070DEC8 /* Assets.xcassets */; };
+		BD9ED8E5274A408C0070DEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9ED8E3274A408C0070DEC8 /* Main.storyboard */; };
+		BD9ED8E7274A408C0070DEC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9ED8E6274A408C0070DEC8 /* main.m */; };
+		BD9ED8F0274A40E10070DEC8 /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9ED8EF274A40E10070DEC8 /* SDL_net.framework */; };
+		BD9ED8F1274A40E10070DEC8 /* SDL_net.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD9ED8EF274A40E10070DEC8 /* SDL_net.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD9ED8F2274A40E20070DEC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD08DAC3274AB01900ABA4A6 /* SDL.framework in Embed Frameworks */,
+				BD9ED8F1274A40E10070DEC8 /* SDL_net.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD8EB0E7274A59CF0051570C /* vConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vConnectViewController.h; sourceTree = "<group>"; };
+		BD8EB0E8274A59CF0051570C /* vConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vConnectViewController.m; sourceTree = "<group>"; };
+		BD8EB0EB274A82DB0051570C /* cMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cMessage.h; sourceTree = "<group>"; };
+		BD8EB0EC274A82DB0051570C /* cMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cMessage.m; sourceTree = "<group>"; };
+		BD8EB0EE274A8C110051570C /* cMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cMessageCell.h; sourceTree = "<group>"; };
+		BD8EB0EF274A8C110051570C /* cMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cMessageCell.m; sourceTree = "<group>"; };
+		BD8EB0F1274AA6D50051570C /* cConnectCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cConnectCredentials.h; sourceTree = "<group>"; };
+		BD8EB0F2274AA6D50051570C /* cConnectCredentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cConnectCredentials.m; sourceTree = "<group>"; };
+		BD9ED8D8274A408B0070DEC8 /* chatObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9ED8DB274A408B0070DEC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD9ED8DC274A408B0070DEC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD9ED8DE274A408B0070DEC8 /* vMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vMainViewController.h; sourceTree = "<group>"; };
+		BD9ED8DF274A408B0070DEC8 /* vMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vMainViewController.m; sourceTree = "<group>"; };
+		BD9ED8E1274A408C0070DEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD9ED8E4274A408C0070DEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD9ED8E6274A408C0070DEC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD9ED8E8274A408C0070DEC8 /* chatObjectiveC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chatObjectiveC.entitlements; sourceTree = "<group>"; };
+		BD9ED8EF274A40E10070DEC8 /* SDL_net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL_net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9ED8F3274A41260070DEC8 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9ED8F6274A41720070DEC8 /* chat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chat.h; path = ../../../chat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD9ED8D5274A408B0070DEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD08DAC2274AB01900ABA4A6 /* SDL.framework in Frameworks */,
+				BD9ED8F0274A40E10070DEC8 /* SDL_net.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD08DAC0274AAF4E00ABA4A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD8EB0EB274A82DB0051570C /* cMessage.h */,
+				BD8EB0EC274A82DB0051570C /* cMessage.m */,
+				BD8EB0EE274A8C110051570C /* cMessageCell.h */,
+				BD8EB0EF274A8C110051570C /* cMessageCell.m */,
+				BD8EB0F1274AA6D50051570C /* cConnectCredentials.h */,
+				BD8EB0F2274AA6D50051570C /* cConnectCredentials.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BD08DAC1274AAF6F00ABA4A6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8DE274A408B0070DEC8 /* vMainViewController.h */,
+				BD9ED8DF274A408B0070DEC8 /* vMainViewController.m */,
+				BD8EB0E7274A59CF0051570C /* vConnectViewController.h */,
+				BD8EB0E8274A59CF0051570C /* vConnectViewController.m */,
+				BD9ED8E3274A408C0070DEC8 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD12C1D2274B7BC800E19001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8E1274A408C0070DEC8 /* Assets.xcassets */,
+				BD9ED8E8274A408C0070DEC8 /* chatObjectiveC.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD9ED8CF274A408B0070DEC8 = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8DA274A408B0070DEC8 /* chatObjectiveC */,
+				BD9ED8D9274A408B0070DEC8 /* Products */,
+				BD9ED8EE274A40E10070DEC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9ED8D9274A408B0070DEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8D8274A408B0070DEC8 /* chatObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9ED8DA274A408B0070DEC8 /* chatObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8F6274A41720070DEC8 /* chat.h */,
+				BD9ED8DB274A408B0070DEC8 /* AppDelegate.h */,
+				BD9ED8DC274A408B0070DEC8 /* AppDelegate.m */,
+				BD9ED8E6274A408C0070DEC8 /* main.m */,
+				BD08DAC0274AAF4E00ABA4A6 /* Classes */,
+				BD08DAC1274AAF6F00ABA4A6 /* Storyboards */,
+				BD12C1D2274B7BC800E19001 /* Resources */,
+			);
+			path = chatObjectiveC;
+			sourceTree = "<group>";
+		};
+		BD9ED8EE274A40E10070DEC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9ED8F3274A41260070DEC8 /* SDL.framework */,
+				BD9ED8EF274A40E10070DEC8 /* SDL_net.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD9ED8D7274A408B0070DEC8 /* chatObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9ED8EB274A408C0070DEC8 /* Build configuration list for PBXNativeTarget "chatObjectiveC" */;
+			buildPhases = (
+				BD9ED8D4274A408B0070DEC8 /* Sources */,
+				BD9ED8D5274A408B0070DEC8 /* Frameworks */,
+				BD9ED8D6274A408B0070DEC8 /* Resources */,
+				BD9ED8F2274A40E20070DEC8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatObjectiveC;
+			productName = chatObjectiveC;
+			productReference = BD9ED8D8274A408B0070DEC8 /* chatObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9ED8D0274A408B0070DEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BD9ED8D7274A408B0070DEC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BD9ED8D3274A408B0070DEC8 /* Build configuration list for PBXProject "chatObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9ED8CF274A408B0070DEC8;
+			productRefGroup = BD9ED8D9274A408B0070DEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD9ED8D7274A408B0070DEC8 /* chatObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD9ED8D6274A408B0070DEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9ED8E2274A408C0070DEC8 /* Assets.xcassets in Resources */,
+				BD9ED8E5274A408C0070DEC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD9ED8D4274A408B0070DEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8EB0F3274AA6D50051570C /* cConnectCredentials.m in Sources */,
+				BD9ED8E0274A408B0070DEC8 /* vMainViewController.m in Sources */,
+				BD8EB0ED274A82DB0051570C /* cMessage.m in Sources */,
+				BD9ED8E7274A408C0070DEC8 /* main.m in Sources */,
+				BD8EB0F0274A8C110051570C /* cMessageCell.m in Sources */,
+				BD8EB0E9274A59CF0051570C /* vConnectViewController.m in Sources */,
+				BD9ED8DD274A408B0070DEC8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD9ED8E3274A408C0070DEC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9ED8E4274A408C0070DEC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD9ED8E9274A408C0070DEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD9ED8EA274A408C0070DEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD9ED8EC274A408C0070DEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatObjectiveC/chatObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libsdl.chatObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BD9ED8ED274A408C0070DEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chatObjectiveC/chatObjectiveC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libsdl.chatObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD9ED8D3274A408B0070DEC8 /* Build configuration list for PBXProject "chatObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9ED8E9274A408C0070DEC8 /* Debug */,
+				BD9ED8EA274A408C0070DEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9ED8EB274A408C0070DEC8 /* Build configuration list for PBXNativeTarget "chatObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9ED8EC274A408C0070DEC8 /* Debug */,
+				BD9ED8ED274A408C0070DEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9ED8D0274A408B0070DEC8 /* Project object */;
+}
