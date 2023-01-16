@@ -236,7 +236,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 00F072090992C7C800D99510 /* Build configuration list for PBXProject "SDL_net" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -480,7 +480,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../submodules/SDL/include\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"";
@@ -503,7 +503,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../submodules/SDL/include\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SDKROOT = macosx;
 				SEPARATE_STRIP = YES;
 				SYSTEM_HEADER_SEARCH_PATHS = "\"$(DSTROOT)/usr/local/include\"";
