@@ -380,6 +380,7 @@
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = SDL_net.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-net";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -396,6 +397,7 @@
 				INFOPLIST_FILE = "Info-Framework__Upgraded_.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = SDL_net.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libsdl.SDL-net";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
