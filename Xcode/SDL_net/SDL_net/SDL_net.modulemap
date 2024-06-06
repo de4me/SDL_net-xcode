@@ -1,0 +1,9 @@
+
+framework module SDL_net [system] [extern_c] {
+
+  umbrella header "SDL_net.h"
+
+  export *
+  module * { export * }
+
+}
