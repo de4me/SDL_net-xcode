@@ -21,8 +21,11 @@
 
 #include <string.h>
 
+#ifndef SDL_FRAMEWORK
 #include "SDL_endian.h"
-
+#else
+#include <SDL/SDL_endian.h>
+#endif
 #include "SDLnetsys.h"
 #include "SDL_net.h"
 
