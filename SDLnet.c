@@ -140,7 +140,7 @@ int SDLNet_ResolveHost(IPaddress *address, const char *host, Uint16 port)
 
 			hp = gethostbyname(host);
 			if ( hp ) {
-				memcpy(&address->host,hp->h_addr,hp->h_length);
+				memcpy(&address->host,hp->h_addr_list[0],hp->h_length);
 			} else {
 				retval = -1;
 			}
@@ -227,10 +227,12 @@ int SDLNet_GetLocalAddresses(IPaddress *addresses, int maxcount)
 	}
 
 	if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) == ERROR_BUFFER_OVERFLOW) {
-		pAdapterInfo = (IP_ADAPTER_INFO *) SDL_realloc(pAdapterInfo, ulOutBufLen);
-		if (pAdapterInfo == NULL) {
+		PIP_ADAPTER_INFO pAdapterInfoTmp = (PIP_ADAPTER_INFO) SDL_realloc(pAdapterInfo, ulOutBufLen);
+		if (pAdapterInfoTmp == NULL) {
+			SDL_free(pAdapterInfo);
 			return 0;
 		}
+		pAdapterInfo = pAdapterInfoTmp;
 		dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen);
 	}
 
